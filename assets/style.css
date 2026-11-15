@@ -603,3 +603,7 @@ table.fmat tr:hover td.hf{background:var(--accent-soft)}
 /* provisional system (tasks still to run or score) */
 .prov{display:inline-block;margin:2px 0 0;font:600 10px/1.4 var(--mono);color:var(--accent);background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 38%,transparent);border-radius:6px;padding:0 5px;white-space:nowrap;vertical-align:1px}
 .prov.part{color:var(--text-2);background:transparent;border-color:var(--border-strong)}
+
+h1.q.q-compact{font-size:clamp(19px,2.2vw,24px);line-height:1.25;max-width:none}
+.home-lbtitle{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin:0 0 4px}
+.home-lbtitle .links{display:flex;gap:18px}
