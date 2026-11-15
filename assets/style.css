@@ -607,3 +607,5 @@ table.fmat tr:hover td.hf{background:var(--accent-soft)}
 h1.q.q-compact{font-size:clamp(19px,2.2vw,24px);line-height:1.25;max-width:none}
 .home-lbtitle{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin:0 0 4px}
 .home-lbtitle .links{display:flex;gap:18px}
+.btn{white-space:nowrap;flex-shrink:0}
+.nav .tools{flex-shrink:0}
